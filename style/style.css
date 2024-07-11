@@ -80,13 +80,19 @@ align-items: center;
     text-align: center;
 }
 .banner-subtitle{
-    color: rgba(82, 87, 100, 0.37);
+    color: rgba(20, 28, 48, 0.589);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
+
+}
+.text-color{
+color: rgb(13, 19, 33);
+font-size: 12px;
+font-weight: 300px;
 
 }
 
@@ -121,7 +127,7 @@ width: 1920px;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    color: rgb(13, 19, 33);
+   color: rgba(22, 34, 61, 0.527); 
 }
 
 /*.......main contest start hare.....*/
@@ -156,27 +162,54 @@ width: 1920px;
     margin-left: 250px;
     margin-right: 250px;
     background-color: antiquewhite;
+    border-radius: 18px;
+    margin-bottom: 24px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 
 }
-.learn-more{
+.learn-more {
 
-display: flex;
+    display: flex;
 
-justify-content: center;
-align-items: center;
-Width: 150px;
-Height: 48px;
-Top: 172px;
-Left: 0px;
-background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    Width: 150px;
+    Height: 48px;
+    Top: 172px;
+    Left: 0px;
+    background-color: antiquewhite;
 
-}
-main div button a {
-text-decoration: none;
-color: black;
-background-color: antiquewhite;
 
 }
+.learn-more > .jammela {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    font-family: "Azeret Mono", monospace;
+}
+
+
+
+
+.btn-banner {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding: 17px 24px 17px 24px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: black;
+    
+
+}
+header div button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
 section  {
 
     width: 1920px;
@@ -220,8 +253,7 @@ section  {
 padding: 40px;
 width: 364px;
 height: 300px;
-box-shadow: 5px  5px 6px 5px;
-margin-bottom: 50px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 
@@ -239,6 +271,7 @@ section div h3 a {
          background-repeat: no-repeat;
          background-size: cover;
          border-radius: 16px;
+         
 
 
 
@@ -249,7 +282,7 @@ align-items: center;
 color: rgb(255, 255, 255);
 padding: 64px 48px 64px 48px;
 border-radius: 16px;
-margin: 50px 150px 60px 400px;
+margin: 50px 180px 50px 400px;
 width: 1140px;
 
 
@@ -309,4 +342,27 @@ justify-content: center;
 row-gap: 5px;
 
 
+}
+
+footer section {
+    
+position: static;
+width: 1140px;
+height: 36px;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+margin-top: 420px;
+margin-left: 400px;
+margin-right: 150px;
+margin-bottom: 20px;
 }
