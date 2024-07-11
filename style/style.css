@@ -49,6 +49,7 @@ header{
         width: 1920px;
         min-height: 650px;
         background-image: url(../image/Hero-bg.png);
+        
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -230,5 +231,82 @@ section div h3 a {
     color: black;
 }
 
+.support {
+    background-image: url(../image/handshake.jpg);
+    position: absolute;
+ 
+ background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 16px;
 
 
+
+display: flex;
+flex-direction: column;
+justify-items: center;
+align-items: center;
+color: rgb(255, 255, 255);
+padding: 64px 48px 64px 48px;
+border-radius: 16px;
+margin: 50px 150px 60px 400px;
+width: 1140px;
+
+
+
+
+
+
+
+}
+.support-bar{ 
+    /* Frame 7 */
+position: static;
+width: 548px;
+height: 57px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 19px 20px 19px 20px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+    
+
+}
+
+.btn-support-submit{
+
+    
+    
+    justify-content: center;
+    align-items: center;
+    padding: 17px 24px 17px 24px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: white;
+
+
+}
+
+.frm-01{
+display: flex;
+flex-direction: row;
+justify-content: center;
+row-gap: 5px;
+
+
+}
