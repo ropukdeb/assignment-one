@@ -96,7 +96,7 @@ align-items: center;
 
     position: relative;
 width: 1920px;
-height: 650px;
+
 
 
 }
@@ -179,9 +179,9 @@ background-color: antiquewhite;
 section  {
 
     width: 1920px;
-    height: 770px;
+    margin-top:50px ;
     
-    margin-top:520px ;
+    
 }
 
 
@@ -207,8 +207,28 @@ section  {
 }
 
 
+.target-container{
+    
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.target-content{
+padding: 40px;
+width: 364px;
+height: 300px;
+box-shadow: 5px  5px 6px 5px;
+margin-bottom: 50px;
 
+}
 
+section div h3 a {
+    text-decoration: underline;
+
+    color: black;
+}
 
 
 
